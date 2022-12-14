@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    background-color: black;
+}
+
+main {
+    max-width: 300px;
+    min-width: 200px;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card-upper-image img {
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-round-image {
+    height: 1px;
+    position: relative;
+    margin-bottom: 3.5rem;
+}
+
+.card-round-image img {
+    width: 5rem;
+    border-radius: 100px;
+    border: 5px solid white;
+    transform: translateY(-2.5rem);;
+}
+
+.card-name-age {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.space {
+    width: 0.7rem;
+}
